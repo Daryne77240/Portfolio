@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Mon Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Acceuil</a>
+            <a href="#about">A propos</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Bonjour, Je suis</h3>
+            <h1>Saidi Daryne</h1>
+            <p>Développeur web passionné par la création d'applications web dynamiques et intuitives. Avec une formation approfondie en développement web à Epitech, je combine mes compétences techniques avec une approche créative pour développer des sites web performants et esthétiquement agréables. </p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/daryne-saidi-a9915526a"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="./CV/CV_2023-04-12_Daryne_Saidi (1).pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <!-- <div class="profession" style="--i:1;">
+                    <i class='bx bx-camera'></i>
+                    <h3>My compétence</h3>
+                </div> -->
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-conversation'></i>
+                    <h3>Marketing digitale</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/IDN23013-removebg-preview.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/profile-pic (16).png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">À propos de <span>Moi</span></h2> <br>
+            <h3>Maîtrisant les langages de programmation tels que HTML, CSS, PHP, MYSQL, SHELL et JavaScript, ainsi que les frameworks populaires tels que React, Symphony, Laravel et Node.js, je suis capable de transformer des concepts en produits finis robustes et conviviaux.
+                Je suis passionné par l'intersection entre la conception esthétique et la fonctionnalité, en m'assurant que chaque site que je développe offre une expérience utilisateur exceptionnelle.
+                En dehors du développement web, j'apprécie également le travail d'équipe, la communication claire et l'esprit de collaboration. Ma détermination à atteindre l'excellence et ma volonté d'apprendre continuellement me poussent à chercher des défis stimulants pour continuer à grandir en tant que développeur web.</p>
+            <a href="#" class="btn">En savoir plus</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Mes <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>En tant que développeur web expérimenté, je propose des services de développement web sur mesure. 
+                    De la création de sites web responsives et optimisés aux applications web dynamiques, je m'engage à offrir des solutions technologiques avancées pour répondre aux besoins uniques de mes clients. </p>
+                <a href="#" class="btn">En savoir plus</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Mon approche du web design allie l'esthétique visuelle à une expérience utilisateur exceptionnelle. 
+                    Je crée des interfaces web attrayantes, intuitives et conviviales en utilisant les meilleures pratiques en matière de conception UX/UI. 
+                    Je mets un point d'honneur à comprendre les objectifs de mes clients et à traduire leur vision en un design captivant.</p>
+                <a href="#" class="btn">En savoir plus</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Mon expertise en marketing digital me permet d'offrir des services complets de marketing en ligne. 
+                    Je développe des stratégies de marketing numérique efficaces, en mettant l'accent sur l'optimisation des moteurs de recherche (SEO), la gestion des médias sociaux, la publicité en ligne et l'analyse de données.  </p>
+                <a href="#" class="btn">En savoir plus</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Dernier <span>Projet</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/Portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Puissance 4</h4>
+                    <p>Proje de 2 semaines : Qui a été consacré à la réalisation d’un jeu interactif en JS, HTML, CSS. <br> Les notions abordées sont le Javascript (ES6) , Algorithmie et Implémentation d’un jeu en le présentant obligatoirement sous la forme d’un plugin javascript.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Site cinéma</h4>
+                    <p>Projet de 2 semaines : Qui a eu pour but de maîtriser les outils suivants: HTML5, CSS, JS, PHP, SQL et MySQL. À partir d’une base de données fournie j‘avais pour but  de crée un site de cinéma avec les fonctionnalité adéquate qui interagie avec ma base de donnée.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/Portfolio33.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Maquette Web</h4>
+                    <p>Projet de 1 semaines : Ou je devais réaliser une maquette identique a l’exemple qui m'etait donnée. <br> En HTML5, CCS3 et Javascript tout en respectant les normes du W3C et évidemment l’adapter en responsive !</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <!-- <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/Portfolio6.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+        <h2 class="heading">Témoignage <span>Précieux</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/profile-pic (17).png" alt="">
+                        <h3>Soël COACH.SW </h3>
+                        <p>Ayant pris Daryne en alternance pendant sa première en BTS SIO je tiens à souligner que Daryne possède toutes les qualités nécessaires pour exceller dans son somaine d'activité actuelle.
+                             Son engagement, son professionnalisme et surtout sa détermination font de lui un candidat exceptionnel.
+                              Sa passion pour le développement web, combinée à sa solide formation à Epitech, lui permet de créer des expériences en ligne exceptionnelles. 
+                              Je suis convaincu que Daryne apportera une grande valeur ajoutée à tout projet auquel il contribuera en te souhaitant une bonne continuation pour la suite :)</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/profile-pic (15).png" alt="">
+                        <h3>Flora Ocean</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dignissimos aliquid
+                            iure delectus corrupti impedit, beatae aperiam ad iusto nostrum possimus cum pariatur harum
+                            assumenda suscipit a, qui, tempora maxime nulla facere quo ipsum tempore. Atque libero
+                            provident ad aut officia pariatur voluptate quaerat delectus nesciunt, sequi eligendi
+                            aperiam fugit unde nihil, iste similique illum. Dignissimos enim officia consequuntur
+                            dolores.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial3.jpg" alt="">
+                        <h3>Julian Grayson</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dignissimos aliquid
+                            iure delectus corrupti impedit, beatae aperiam ad iusto nostrum possimus cum pariatur harum
+                            assumenda suscipit a, qui, tempora maxime nulla facere quo ipsum tempore. Atque libero
+                            provident ad aut officia pariatur voluptate quaerat delectus nesciunt, sequi eligendi
+                            aperiam fugit unde nihil, iste similique illum. Dignissimos enim officia consequuntur
+                            dolores.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contactez <span>Moi !</span></h2>
+    
+        <form action="contact.php" method="post" onsubmit="return onSubmit(event)">
+            <div class="input-box">
+                <input type="text" name="surname" placeholder="Nom Prénom">
+                <input type="email" name="email" placeholder="Votre Adresse Email">
+            </div>
+            <div class="input-box">
+                <input type="number" name="telephone" placeholder="Numéro de téléphone">
+                <input type="text" name="object-mail" placeholder="Objet de l'email">
+            </div>
+            <textarea cols="30" rows="10" name="message" placeholder="Votre Message"></textarea>
+            <input type="submit" value="Envoyer" class="btn">
+        </form>
+        <div class="success-message" id="success-message">Votre message a été envoyé avec succès !</div>
+<script>
+ function onSubmit(event) {
+            event.preventDefault();
+            var form = event.target;
+        
+            fetch(form.action, {
+                method: form.method,
+                body: new FormData(form)
+            })
+                .then(function (response) {
+                    if (response.ok) {
+                        var successMessage = document.getElementById('success-message');
+                        successMessage.style.display = 'block';
+                        form.reset();
+                    } else {
+                        console.error('Erreur lors de l\'envoi du formulaire.');
+                    }
+                })
+                .catch(function (error) {
+                    console.error('Erreur lors de l\'envoi du formulaire.', error);
+                });
+        
+            return false;
+        }
+</script>
+       
+        
+  
+    </section>
+    
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

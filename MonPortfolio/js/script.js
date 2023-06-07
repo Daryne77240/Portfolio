@@ -80,7 +80,19 @@ ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .test
 ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
 ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { origin: 'right' });
 
+function SendMail() {
+    var params = {
+        from_name : document.getElementById("surname").value,
+        email_id : document.getElementById("email").value,
+        message : document.getElementById("message").value,
+        telephone : document.getElementById("telephone").value,
 
+
+    }  
+    emailjs.send("service_d0jz9o6", "template_xq56urh", params).then(function(res) {
+        alert("Success !" + res.status);
+    })
+}
 // function onSubmit(event) {
 //     event.preventDefault();
 //     var form = event.target;
